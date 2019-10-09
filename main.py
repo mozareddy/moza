@@ -90,6 +90,7 @@ def main():
                     buy_signal(ins_scrip)
                 elif(sma_5 < sma_20):
                     sell_signal(ins_scrip)
+            sleep(1)
         sleep(0.2)  # sleep for 200ms
     
 if(__name__ == '__main__'):
