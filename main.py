@@ -90,11 +90,11 @@ def main():
                 if(current_signal != 'buy'):
                     if(sma_5 > sma_20):
                         buy_signal(ins_scrip)
-                        current_signal == 'buy'
+                        current_signal = 'buy'
                 if(current_signal != 'sell'):
                     if(sma_5 < sma_20):
                         sell_signal(ins_scrip)
-                        current_signal == 'sell'
+                        current_signal = 'sell'
             sleep(1)
         sleep(0.2)  # sleep for 200ms
     
