@@ -87,11 +87,11 @@ def main():
             if(len(minute_close) > 20):
                 sma_5 = statistics.mean(minute_close[-5:])
                 sma_20 = statistics.mean(minute_close[-20:])
-                if(current_signal != 'buy'
+                if(current_signal != 'buy'):
                     if(sma_5 > sma_20):
                         buy_signal(ins_scrip)
                         current_signal == 'buy'
-                if(current_signal != 'sell')
+                if(current_signal != 'sell'):
                     if(sma_5 < sma_20):
                         sell_signal(ins_scrip)
                         current_signal == 'sell'
