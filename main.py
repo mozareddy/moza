@@ -5,10 +5,10 @@ from time import sleep
 from alice_blue import *
 
 # Config
-username = 'username'
-password = 'password'
-api_secret = 'api_secret'
-twoFA = 'a'
+username = '311620'
+password = 'mozamoza456'
+api_secret = 'sony'
+twoFA = '1980'
 EMA_CROSS_SCRIP = 'INFY'
 logging.basicConfig(level=logging.DEBUG)        # Optional for getting debug messages.
 # Config
